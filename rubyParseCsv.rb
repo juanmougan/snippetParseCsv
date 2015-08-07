@@ -5,15 +5,15 @@ require 'set'
 class ReducedStudent
   attr_accessor :id, :subject
 
-	def initialize(id, name, subject)
-		@id = id
-		@name = name
-		@subject = subject
-	end
+  def initialize(id, name, subject)
+    @id = id
+    @name = name
+    @subject = subject
+  end
 
-	def to_s
-		"id: #{@id}	name: #{name}	subject:#{subject}"
-	end
+  def to_s
+    "id: #{@id}  name: #{name}  subject:#{subject}"
+  end
 end
 
 # TODO move this utility method elsewhere
