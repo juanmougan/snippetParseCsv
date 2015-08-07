@@ -31,23 +31,25 @@ pp filteredList
 
 puts '-----------------------'
 puts 'Aca empieza la magia del hash'
-# Esto es para un solo Student. Tengo que replicarlo a varios
-studentOneSubjects = Set.new
+
 #studentOneSubjects = filteredList.map { 
 #  |aSubject| aSubject = filteredList aSubject[:id].subject
 #}
+subjectsForEachStudent = [Set.new]
 filteredList.map {
   |key, value| # para cada key (es un ID de Student), traerme las materias. Ponerlas en un Set para no duplicar.
-  
-  # con este each hago el "para todos"
-  #value.each {
-  #  |studentRow|
-  #}
+  allSubjects = filteredList[key].collect {
+    |row| row.subject
+  }
+  subjectsForEachStudent.at(key).add(allSubjects)
   
 }
 
+puts 'Resultado: '
+pp subjectsForEachStudent
+
 # esta es la verion harcodeada de "uno solo"
 unaMateriaCualunque = filteredList["1"].at(0).subject
-pp unaMateriaCualunque
+# pp unaMateriaCualunque
 
 #pp studentOneSubjects
