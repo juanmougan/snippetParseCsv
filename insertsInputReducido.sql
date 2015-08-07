@@ -1,0 +1,12 @@
+INSERT INTO alumnos_raw(id, nombre, materia) VALUES(1,	'Mariana', 'Álgebra y Geometría');
+INSERT INTO alumnos_raw(id, nombre, materia) VALUES(1,	'Mariana', 'Cálculo Elemental');
+INSERT INTO alumnos_raw(id, nombre, materia) VALUES(1,	'Mariana', 'Filosofía I');
+INSERT INTO alumnos_raw(id, nombre, materia) VALUES(1,	'Mariana', 'Informática I');
+INSERT INTO alumnos_raw(id, nombre, materia) VALUES(2,	'Carlos	', 'Física II');
+INSERT INTO alumnos_raw(id, nombre, materia) VALUES(2,	'Carlos	', 'Métodos Numéricos');
+INSERT INTO alumnos_raw(id, nombre, materia) VALUES(2,	'Carlos	', 'Matemática Superior');
+INSERT INTO alumnos_raw(id, nombre, materia) VALUES(2,	'Carlos	', 'Filosofía II');
+INSERT INTO alumnos_raw(id, nombre, materia) VALUES(3,	'Camila	', 'Programación I');
+INSERT INTO alumnos_raw(id, nombre, materia) VALUES(3,	'Camila	', 'Matemática Discreta');
+INSERT INTO alumnos_raw(id, nombre, materia) VALUES(3,	'Camila	', 'Teología I');
+INSERT INTO alumnos_raw(id, nombre, materia) VALUES(3,	'Camila	', 'Electrónica Digital');

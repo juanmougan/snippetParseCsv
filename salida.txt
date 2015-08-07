@@ -1,0 +1,48 @@
+Materia? Álgebra y Geometría
+MAP --- curr: 1,Mariana,Álgebra y Geometría		Index: 0		Array: 1,Mariana,Álgebra y Geometría,1,Mariana,Cálculo Elemental,1,Mariana,Filosofía I,1,Mariana,Informática I,2,Carlos,Física II,2,Carlos,Métodos Numéricos,2,Carlos,Matemática Superior,2,Carlos,Filosofía II,3,Camila,Programación I,3,Camila,Matemática Discreta,3,Camila,Teología I,3,Camila,Electrónica Digital
+
+Materia? Cálculo Elemental
+MAP --- curr: 1,Mariana,Cálculo Elemental		Index: 1		Array: 1,Mariana,Álgebra y Geometría,1,Mariana,Cálculo Elemental,1,Mariana,Filosofía I,1,Mariana,Informática I,2,Carlos,Física II,2,Carlos,Métodos Numéricos,2,Carlos,Matemática Superior,2,Carlos,Filosofía II,3,Camila,Programación I,3,Camila,Matemática Discreta,3,Camila,Teología I,3,Camila,Electrónica Digital
+
+Materia? Filosofía I
+MAP --- curr: 1,Mariana,Filosofía I		Index: 2		Array: 1,Mariana,Álgebra y Geometría,1,Mariana,Cálculo Elemental,1,Mariana,Filosofía I,1,Mariana,Informática I,2,Carlos,Física II,2,Carlos,Métodos Numéricos,2,Carlos,Matemática Superior,2,Carlos,Filosofía II,3,Camila,Programación I,3,Camila,Matemática Discreta,3,Camila,Teología I,3,Camila,Electrónica Digital
+
+Materia? Informática I
+MAP --- curr: 1,Mariana,Informática I		Index: 3		Array: 1,Mariana,Álgebra y Geometría,1,Mariana,Cálculo Elemental,1,Mariana,Filosofía I,1,Mariana,Informática I,2,Carlos,Física II,2,Carlos,Métodos Numéricos,2,Carlos,Matemática Superior,2,Carlos,Filosofía II,3,Camila,Programación I,3,Camila,Matemática Discreta,3,Camila,Teología I,3,Camila,Electrónica Digital
+
+Materia? Física II
+MAP --- curr: 2,Carlos,Física II		Index: 4		Array: 1,Mariana,Álgebra y Geometría,1,Mariana,Cálculo Elemental,1,Mariana,Filosofía I,1,Mariana,Informática I,2,Carlos,Física II,2,Carlos,Métodos Numéricos,2,Carlos,Matemática Superior,2,Carlos,Filosofía II,3,Camila,Programación I,3,Camila,Matemática Discreta,3,Camila,Teología I,3,Camila,Electrónica Digital
+
+Materia? Métodos Numéricos
+MAP --- curr: 2,Carlos,Métodos Numéricos		Index: 5		Array: 1,Mariana,Álgebra y Geometría,1,Mariana,Cálculo Elemental,1,Mariana,Filosofía I,1,Mariana,Informática I,2,Carlos,Física II,2,Carlos,Métodos Numéricos,2,Carlos,Matemática Superior,2,Carlos,Filosofía II,3,Camila,Programación I,3,Camila,Matemática Discreta,3,Camila,Teología I,3,Camila,Electrónica Digital
+
+Materia? Matemática Superior
+MAP --- curr: 2,Carlos,Matemática Superior		Index: 6		Array: 1,Mariana,Álgebra y Geometría,1,Mariana,Cálculo Elemental,1,Mariana,Filosofía I,1,Mariana,Informática I,2,Carlos,Física II,2,Carlos,Métodos Numéricos,2,Carlos,Matemática Superior,2,Carlos,Filosofía II,3,Camila,Programación I,3,Camila,Matemática Discreta,3,Camila,Teología I,3,Camila,Electrónica Digital
+
+Materia? Filosofía II
+MAP --- curr: 2,Carlos,Filosofía II		Index: 7		Array: 1,Mariana,Álgebra y Geometría,1,Mariana,Cálculo Elemental,1,Mariana,Filosofía I,1,Mariana,Informática I,2,Carlos,Física II,2,Carlos,Métodos Numéricos,2,Carlos,Matemática Superior,2,Carlos,Filosofía II,3,Camila,Programación I,3,Camila,Matemática Discreta,3,Camila,Teología I,3,Camila,Electrónica Digital
+
+Materia? Programación I
+MAP --- curr: 3,Camila,Programación I		Index: 8		Array: 1,Mariana,Álgebra y Geometría,1,Mariana,Cálculo Elemental,1,Mariana,Filosofía I,1,Mariana,Informática I,2,Carlos,Física II,2,Carlos,Métodos Numéricos,2,Carlos,Matemática Superior,2,Carlos,Filosofía II,3,Camila,Programación I,3,Camila,Matemática Discreta,3,Camila,Teología I,3,Camila,Electrónica Digital
+
+Materia? Matemática Discreta
+MAP --- curr: 3,Camila,Matemática Discreta		Index: 9		Array: 1,Mariana,Álgebra y Geometría,1,Mariana,Cálculo Elemental,1,Mariana,Filosofía I,1,Mariana,Informática I,2,Carlos,Física II,2,Carlos,Métodos Numéricos,2,Carlos,Matemática Superior,2,Carlos,Filosofía II,3,Camila,Programación I,3,Camila,Matemática Discreta,3,Camila,Teología I,3,Camila,Electrónica Digital
+
+Materia? Teología I
+MAP --- curr: 3,Camila,Teología I		Index: 10		Array: 1,Mariana,Álgebra y Geometría,1,Mariana,Cálculo Elemental,1,Mariana,Filosofía I,1,Mariana,Informática I,2,Carlos,Física II,2,Carlos,Métodos Numéricos,2,Carlos,Matemática Superior,2,Carlos,Filosofía II,3,Camila,Programación I,3,Camila,Matemática Discreta,3,Camila,Teología I,3,Camila,Electrónica Digital
+
+Materia? Electrónica Digital
+MAP --- curr: 3,Camila,Electrónica Digital		Index: 11		Array: 1,Mariana,Álgebra y Geometría,1,Mariana,Cálculo Elemental,1,Mariana,Filosofía I,1,Mariana,Informática I,2,Carlos,Física II,2,Carlos,Métodos Numéricos,2,Carlos,Matemática Superior,2,Carlos,Filosofía II,3,Camila,Programación I,3,Camila,Matemática Discreta,3,Camila,Teología I,3,Camila,Electrónica Digital
+
+[ { id: '1', subject: 'Álgebra y Geometría' },
+  { id: '1', subject: 'Cálculo Elemental' },
+  { id: '1', subject: 'Filosofía I' },
+  { id: '1', subject: 'Informática I' },
+  { id: '2', subject: 'Física II' },
+  { id: '2', subject: 'Métodos Numéricos' },
+  { id: '2', subject: 'Matemática Superior' },
+  { id: '2', subject: 'Filosofía II' },
+  { id: '3', subject: 'Programación I' },
+  { id: '3', subject: 'Matemática Discreta' },
+  { id: '3', subject: 'Teología I' },
+  { id: '3', subject: 'Electrónica Digital' } ]

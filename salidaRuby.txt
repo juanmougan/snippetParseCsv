@@ -1,0 +1,110 @@
+El array raw es: 
+[#<ReducedStudent:0x00000000c6c6e0
+  @id="id",
+  @name="Nombre",
+  @subject="Materia">,
+ #<ReducedStudent:0x00000000c6c2f8
+  @id="1",
+  @name="Mariana",
+  @subject="Álgebra y Geometría">,
+ #<ReducedStudent:0x00000000c6bf10
+  @id="1",
+  @name="Mariana",
+  @subject="Cálculo Elemental">,
+ #<ReducedStudent:0x00000000c6bbf0
+  @id="1",
+  @name="Mariana",
+  @subject="Filosofía I">,
+ #<ReducedStudent:0x00000000c6b8f8
+  @id="1",
+  @name="Mariana",
+  @subject="Informática I">,
+ #<ReducedStudent:0x00000000c6b5d8
+  @id="2",
+  @name="Carlos",
+  @subject="Física II">,
+ #<ReducedStudent:0x00000000c6b2b8
+  @id="2",
+  @name="Carlos",
+  @subject="Métodos Numéricos">,
+ #<ReducedStudent:0x00000000c6afc0
+  @id="2",
+  @name="Carlos",
+  @subject="Matemática Superior">,
+ #<ReducedStudent:0x00000000c6acc8
+  @id="2",
+  @name="Carlos",
+  @subject="Filosofía II">,
+ #<ReducedStudent:0x00000000c6a9d0
+  @id="3",
+  @name="Camila",
+  @subject="Programación I">,
+ #<ReducedStudent:0x00000000c6a6d8
+  @id="3",
+  @name="Camila",
+  @subject="Matemática Discreta">,
+ #<ReducedStudent:0x00000000c6a3b8
+  @id="3",
+  @name="Camila",
+  @subject="Teología I">,
+ #<ReducedStudent:0x00000000c6a0c0
+  @id="3",
+  @name="Camila",
+  @subject="Electrónica Digital">]
+La lista filtrada es: 
+{"id"=>
+  [#<ReducedStudent:0x00000000c6c6e0
+    @id="id",
+    @name="Nombre",
+    @subject="Materia">],
+ "1"=>
+  [#<ReducedStudent:0x00000000c6c2f8
+    @id="1",
+    @name="Mariana",
+    @subject="Álgebra y Geometría">,
+   #<ReducedStudent:0x00000000c6bf10
+    @id="1",
+    @name="Mariana",
+    @subject="Cálculo Elemental">,
+   #<ReducedStudent:0x00000000c6bbf0
+    @id="1",
+    @name="Mariana",
+    @subject="Filosofía I">,
+   #<ReducedStudent:0x00000000c6b8f8
+    @id="1",
+    @name="Mariana",
+    @subject="Informática I">],
+ "2"=>
+  [#<ReducedStudent:0x00000000c6b5d8
+    @id="2",
+    @name="Carlos",
+    @subject="Física II">,
+   #<ReducedStudent:0x00000000c6b2b8
+    @id="2",
+    @name="Carlos",
+    @subject="Métodos Numéricos">,
+   #<ReducedStudent:0x00000000c6afc0
+    @id="2",
+    @name="Carlos",
+    @subject="Matemática Superior">,
+   #<ReducedStudent:0x00000000c6acc8
+    @id="2",
+    @name="Carlos",
+    @subject="Filosofía II">],
+ "3"=>
+  [#<ReducedStudent:0x00000000c6a9d0
+    @id="3",
+    @name="Camila",
+    @subject="Programación I">,
+   #<ReducedStudent:0x00000000c6a6d8
+    @id="3",
+    @name="Camila",
+    @subject="Matemática Discreta">,
+   #<ReducedStudent:0x00000000c6a3b8
+    @id="3",
+    @name="Camila",
+    @subject="Teología I">,
+   #<ReducedStudent:0x00000000c6a0c0
+    @id="3",
+    @name="Camila",
+    @subject="Electrónica Digital">]}
