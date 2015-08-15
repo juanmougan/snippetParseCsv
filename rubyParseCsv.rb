@@ -47,17 +47,6 @@ class Student
   end
 end
 
-# TODO este metodo es una grasada que funciona porque los IDs del ejemplo son 1, 2, 3...
-# Quizás subjectsForEachStudent debería ser un Hash de Sets, no un Array dce Sets
-# Así indexo al Student por su ID
-# TODO move this utility method elsewhere
-# Since the hash has keys starting from "1", this methods returns an Integer
-# substracting 1 to the key, so it returns a number starting from 0, which
-# can be used as an Array index
-def getUnshiftedKeyForArray(key)
-  Integer(key) - 1
-end 
-
 rawStudentRows = []
 CSV.foreach(File.path("input.csv"), {:headers => true}) do |col|
     # Where col corresponds to a zero-based value/column in the csv
@@ -74,9 +63,6 @@ pp filteredList
 #puts '-----------------------'
 #puts 'Aca empieza la magia del hash'
 
-#subjectsForEachStudent = Array.new(filteredList.length) { Set.new }
-#pp subjectsForEachStudent
-
 subjectsForEachStudent = Hash.new
 
 # Voy creando el Array de Alumnos
@@ -92,11 +78,6 @@ filteredList.map do |key, value|
   allSubjects = filteredList[key].collect {
     |row| Subject.new(row.subject_name, row.subject_code, row.career)
   }
-  
-  # Tirar esto, no es un Array...
-  # Con esto estoy ocupando casilleros del Array según si existe ese ID o no... una idea discutible
-  # add() es porque ese objeto es un Set
-  # subjectsForEachStudent.at(getUnshiftedKeyForArray(key)).add(allSubjects)
   
   # Usando un Hash...
   subjectsForEachStudent[key] = Set.new
