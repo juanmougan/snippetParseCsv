@@ -34,17 +34,16 @@ class StudentRow
   end
 end
 
-# FIXME deberia ser "Subjects", es una Collection
 class Student
-  attr_accessor :id, :first_name, :last_name, :file_number, :career, :subject
+  attr_accessor :id, :first_name, :last_name, :file_number, :career, :subjects
 
-  def initialize(id, first_name, last_name, file_number, career, subject)
+  def initialize(id, first_name, last_name, file_number, career, subjects)
     @id = id
     @first_name = first_name
     @last_name = last_name
     @file_number = file_number
     @career = career 
-    @subject = subject
+    @subjects = subjects
   end
 end
 
@@ -118,7 +117,7 @@ pp subjectsForEachStudent
 
 # Ahora le seteo a cada Student sus Subjects
 studentsHash.map { |key, value| 
-  value.subject = subjectsForEachStudent[key]   # Porque comparten la key...
+  value.subjects = subjectsForEachStudent[key]   # Porque comparten la key...
 }
 
 puts "\n\n\Hash de alumnos: "
