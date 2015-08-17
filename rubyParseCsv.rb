@@ -60,13 +60,6 @@ filteredList = rawStudentRows.group_by{ |st| st.id  }
 puts 'La lista filtrada es: '
 pp filteredList
 
-#puts '-----------------------'
-#puts 'Aca empieza la magia del hash'
-
-subjectsForEachStudent = Hash.new
-
-# Voy creando el Array de Alumnos
-#studentsArray = Array.new(subjectsForEachStudent.length)
 
 studentsHash = Hash.new
 
@@ -80,26 +73,17 @@ filteredList.map do |key, value|
   }
   
   # Usando un Hash...
-  subjectsForEachStudent[key] = Set.new
-  subjectsForEachStudent[key].add(allSubjects)
+  subjectsForThisStudent = Set.new
+  subjectsForThisStudent.add(allSubjects)
   
   # id, first_name, last_name, file_number, career, subject
   # Asumo que los datos del Student están TODOS duplicados
-  # Creo al Student sin las Subjects, despues las agrego
   first_name = value[0].first_name
   last_name = value[0].last_name
   file_number = value[0].file_number
-  studentsHash[key] = Student.new(key, first_name, last_name, file_number, nil, nil)
+  studentsHash[key] = Student.new(key, first_name, last_name, file_number, nil, subjectsForThisStudent)
   
 end
-
-puts 'Resultado de recolectar todas las materias: '
-pp subjectsForEachStudent
-
-# Ahora le seteo a cada Student sus Subjects
-studentsHash.map { |key, value| 
-  value.subjects = subjectsForEachStudent[key]   # Porque comparten la key...
-}
 
 puts "\n\n\Hash de alumnos: "
 pp studentsHash
